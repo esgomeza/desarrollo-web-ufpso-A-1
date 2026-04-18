@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Actividad práctica</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-info-subtle">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mi sitio</a>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO -->
+    <div class="container mt-5">
+        <div class="row">
+
+            <!-- CARD 1 -->
+            <div class="col-4">
+                <div class="card">
+                    <img src="https://picsum.photos/id/237/400/200" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto 1</h5>
+                        <p class="card-text">Descripción breve</p>
+                        <button class="btn btn-primary btn-modal">Ver más</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="col-4">
+                <div class="card">
+                    <img src="https://picsum.photos/400/200?grayscale" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto 2</h5>
+                        <p class="card-text">Descripción breve</p>
+                        <button class="btn btn-primary btn-modal">Ver más</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="col-4">
+                <div class="card">
+                    <img src="https://picsum.photos/id/237/400/200" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto 3</h5>
+                        <p class="card-text">Descripción breve</p>
+                        <button class="btn btn-primary btn-modal">Ver más</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- FORMULARIO -->
+        <div class="row mt-3" id="login">
+            <div class="col-6 mx-auto">
+                <h3 class="text-center">Iniciar Sesión</h3>
+
+                <form id="LoginForm">
+                    <div class="mb-3">
+                        <label class="form-label">Correo</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Ingresar</button>
+                </form>
+
+                <div id="message" class="mt-3 text-center"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal fade" id="exampleModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Información</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body" id="modalText">
+                    Has hecho clic :)
+                </div>
+
+            </div>
+        </div>
+    </div> 
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+    <script src="js/script.js"></script>
+
+</body>
+</html>

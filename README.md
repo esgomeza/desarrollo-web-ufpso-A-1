@@ -73,3 +73,46 @@ Aplicación web simple para gestionar tareas pendientes con contador dinámico.
 ├── index.html
 ├── script.js
 └── styles.css
+# 🎨 Actividad Bootstrap - Sitio con Productos y Login
+
+Proyecto práctico de Bootstrap que incluye catálogo de productos con modales y formulario de autenticación.
+
+## ✨ Características
+
+- **Navbar** responsive con Bootstrap
+- **Tarjetas de productos** (3 productos con imágenes aleatorias)
+- **Modal dinámico** que muestra información según el producto seleccionado
+- **Formulario de login** con validación:
+  - Usuario por defecto: `prueba@gmail.com`
+  - Contraseña por defecto: `123456`
+- **Mensajes dinámicos** según el resultado del login (éxito/error/campos vacíos)
+
+## 📁 Estructura del Proyecto
+├── index.html
+├── css/
+│ └── styles.css
+└── js/
+└── script.js
+
+## 🛠️ Tecnologías
+
+- HTML5
+- CSS3
+- Bootstrap 5.3.8
+- JavaScript (Vanilla)
+
+## ▶️ Uso
+
+1. Clona el repositorio
+2. Abre `index.html` en tu navegador
+3. Haz clic en "Ver más" en cualquier producto para ver el modal
+4. Prueba el login con:
+   - Email: `prueba@gmail.com`
+   - Contraseña: `123456`
+
+## 🔐 Credenciales por defecto
+
+| Campo | Valor |
+|-------|-------|
+| Correo | prueba@gmail.com |
+| Contraseña | 123456 |
