@@ -1,5 +1,5 @@
 # desarrollo-web-ufpso-A-1
-Repositorio público para alojar los proyectos de clase de la asignatura.
+Repositorio público para alojar los proyectos de clase de la asignatura. Se creo este nuevo porque en el anterior tuve incovenientes al momento de pushear y este era https://github.com/esgomeza/desarrollo-web-ufpso-A.git.
 
 # 🌓 Mini Layout con Cambio de Tema
 
