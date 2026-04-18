@@ -57,3 +57,19 @@ Mini tienda deportiva con catálogo dinámico de productos, componentes reutiliz
 │ └── header.html
 └── footer/
 └── footer.html
+# ✅ Mi Lista de Tareas
+
+Aplicación web simple para gestionar tareas pendientes con contador dinámico.
+
+## ✨ Características
+
+- Agregar tareas nuevas
+- Eliminar tareas existentes
+- Contador de tareas pendientes en tiempo real
+- Validación para evitar tareas vacías
+- Diseño responsive con sombras y efectos hover
+
+## 📁 Estructura del Proyecto
+├── index.html
+├── script.js
+└── styles.css
