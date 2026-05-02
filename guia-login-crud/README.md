@@ -7,10 +7,7 @@ Proyecto desarrollado como parte de las actividades del curso.
 - Panel administrativo con menú
 - CRUD de productos almacenados en LocalStorage
 - Estilos con Bootstrap 5.3
--
-Credenciales
-user: "Santiago"
-pass: "1234"
+Credenciales :Usuario: "Santiago" -Contraseña: "1234"
 ## Instalación
 ```bash
 npm install
