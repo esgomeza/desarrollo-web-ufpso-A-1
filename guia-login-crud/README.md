@@ -7,7 +7,8 @@ Proyecto desarrollado como parte de las actividades del curso.
 - Panel administrativo con menú
 - CRUD de productos almacenados en LocalStorage
 - Estilos con Bootstrap 5.3
-##Credenciales
+-
+Credenciales
 user: "Santiago"
 pass: "1234"
 ## Instalación
